@@ -35,5 +35,3 @@ puts contacts = {
 
 # solution for 4
 puts "solution for 4"
-
-
