@@ -10,8 +10,14 @@ if future_sight > 10
     i = 0
     while i < c do
         i += 1
-        puts "in #{i * 10} years you will be #{current_age + (i * 10)}"
+        estimated_age = current_age + (i * 10)
+        if estimated_age > 122 && estimated_age <= 130
+            puts "--------- WORLD RECORD 122 Y.O. -----------"
+        end
+        puts "in #{i * 10} years you will be #{estimated_age}"   
     end
 end
 
-puts "in #{future_sight} years you will be #{current_age + future_sight}"
+if current_age % 10 != 0 || future_sight % 10 != 0
+    puts "in #{future_sight} years you will be #{current_age + future_sight}"
+end
