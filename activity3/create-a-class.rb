@@ -11,3 +11,5 @@ end
 
 human1 = Hooman.new("Kim", 24, [37, 27, 42], "blue")
 puts human1
+
+# Type irb -r ./create-a-class
