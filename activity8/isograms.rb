@@ -19,4 +19,4 @@ end
 
 is_isogram("Dermatoglyphics") # true
 is_isogram("aba") # false
-is_isogram("moOse") # true
+is_isogram("moOse") # false
